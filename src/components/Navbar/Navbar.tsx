@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import './Navbar.scss';
 
 import images from '../../constants/images';
+import text from '../../constants/text';
 
 const links = ["home", "about", "work", "projects", "skills", "contact"];
 
@@ -42,6 +43,9 @@ const Navbar = () => {
                         </ul>
                     </motion.div>
                 )}
+        </div>
+        <div className="app__navbar-resume">
+            <a href="resume/resume.pdf" download={`${text.name.replace(/\s+/g, "_")}_resume`}>Resume</a>
         </div>
     </nav>
   )

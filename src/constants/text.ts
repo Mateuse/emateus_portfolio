@@ -1,5 +1,4 @@
 import images from "./images";
-import { SiAngular, SiCelery, SiJenkins, SiMongodb, SiMysql, SiRabbitmq } from 'react-icons/si';
 const name = "Emanuel Mateus";
 const description = "I am a software engineer with a passion for building scalable, efficient, and user-friendly applications. With experience in both fullstack development along with continuous deployment and integration, I enjoy working on projects that challenge me to learn new skills and technologies. I am dedicated to writing clean, maintainable code and am committed to staying up-to-date with the latest industry trends and best practices."
 const aboutOneLiner = "I am a <span>Passionate Developer</span><br/>creating <span>Innovative Solutions</span>"
@@ -95,6 +94,12 @@ const projects = [
         description: "A crypto portfolio allowing users to monitor their crypto portfolio in real time",
         technologies: ["React", "Flask", "MongoDB"],
         github: "https://github.com/Mateuse/CryptoWatch"
+    },
+    {
+        name: "Personal Website",
+        description: "My Personal Portfolio built to showcase my work in a more fun way than a resume :)",
+        technologies: ["React", "SCSS"],
+        github: "https://github.com/Mateuse/Portfolio"
     }
 ]
 

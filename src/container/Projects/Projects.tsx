@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { AiFillEye, AiFillGithub } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 
 import './Projects.scss';
 
@@ -33,8 +33,7 @@ const Projects = () => {
                             </a>
                         </div>
                         <div className="app__project-content">
-                            <p>{project.description}</p>
-                            
+                            <p>{project.description}</p>              
                         </div>
                         <div className="app__project-technologies">
                             {project.technologies?.map((tech, index) => (

@@ -18,24 +18,18 @@
     margin-top: 2rem;
 
     @media screen and (min-width: 2000px) {
-        position: absolute;
-        width: 40%;
-        left: 30%;
-        right: 30%;
+        margin: 2rem auto;
+        max-width: 40%;
     }   
     
     @media screen and (min-width: 1200px) and (max-width: 2000px){
-        position: absolute;
-        width: 50%;
-        left: 25%;
-        right: 25%;
+        margin: 2rem auto;
+        max-width: 50%;
     }   
     
     @media screen and (min-width: 1000px) and (max-width: 1200px) {
-        position: absolute;
-        width: 80%;
-        left: 10%;
-        right: 10%;
+        margin: 2rem auto;
+        max-width: 80%;
     }    
 
 
