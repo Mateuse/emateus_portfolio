@@ -16,7 +16,7 @@ const work = [
             "Implemented a follow topic system on MSN news using React, Web Components, and .Net",
             "Create news carousels for relevant categories on MSN news using React, Web Compontents, and .Net",
             "Run experiments on features by analyzing user behavior, monetization, and performance metrics",
-            "Investigate livesite related issues using Azure clound monitoring services such as Grafana, Kusto, and Titan",
+            "Investigate livesite related issues using Azure cloud monitoring services such as Grafana, Kusto, and Titan",
             "Modify and build API responses to support new feature requests in MSN news with .NET"
         ],
         image: images.microsoftLogo
@@ -27,7 +27,7 @@ const work = [
         start: "April 2019",
         end: "March 2022",
         responsibilities: [
-            "Implement microservices that process thousands of media flies per day using Python, RabbitMQ, and Celery",
+            "Implement microservices that process thousands of media files per day using Python, RabbitMQ, and Celery",
             "Build and maintain internal media web applications using Flask, .Net, Angular, and MongoDB",
             "Integrated a continous deployment system for Montreal's broadcasting network of audio and video devices using Ansible, Python, and Jenkins",
             "Create a media pipeline to convert physically scanned media to the specified digital formats using Python, RabbitMQ, and Celery",
