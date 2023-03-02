@@ -30,7 +30,7 @@
 
         &:hover {
             background-color: var(--secondary-color);
-            scale: 1.1;
+            scale: 1.03;
             color: #fff;
 
             p {
@@ -41,6 +41,7 @@
         @media screen and (max-width: 400px) {
             width: 100%;
             margin: 1rem;
+            
         }
 
         overflow: hidden; /* add this line to hide the entire item */
