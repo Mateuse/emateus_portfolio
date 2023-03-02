@@ -39,16 +39,15 @@
         }
 
         @media screen and (max-width: 400px) {
-            width: 100%;
-            margin: 1rem;
-            
+            width: 95%;
+            margin: 1rem auto;    
         }
-
-        overflow: hidden; /* add this line to hide the entire item */
     }
 
     @media screen and (max-width: 1080px) {
-        grid-template-columns: repeat(auto-fill, minmax(200, 1fr));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 

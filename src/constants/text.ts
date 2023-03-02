@@ -1,6 +1,6 @@
 import images from "./images";
 const name = "Emanuel Mateus";
-const description = "I am a software engineer with a passion for building scalable, efficient, and user-friendly applications. With experience in both fullstack development along with continuous deployment and integration, I enjoy working on projects that challenge me to learn new skills and technologies. I am dedicated to writing clean, maintainable code and am committed to staying up-to-date with the latest industry trends and best practices."
+const description = "I am a software engineer with a passion for building scalable, efficient, and user-friendly applications. With experience in both fullstack development along with continuous deployment and integration, I enjoy working on projects that challenge me to learn new skills and technologies. I am dedicated to writing clean, maintainable code committed to staying up-to-date with the latest industry trends and best practices."
 const aboutOneLiner = "I am a <span>Passionate Developer</span><br/>creating <span>Innovative Solutions</span>"
 const workOneLiner = "My <span>Experience</span>";
 const projectsOneLiner = "My <span>Projects</span>";
@@ -79,7 +79,7 @@ const projects = [
     },
     {
         name: "Fantasy Hockey",
-        description: "A fantasy hockey application allowing users to monage their fantasy hockey league",
+        description: "A fantasy hockey application allowing users to manage their fantasy hockey league",
         technologies: ["Angular", "NestJS", "MongoDB"],
         github: "https://github.com/Mateuse/hockey"
     },
@@ -97,7 +97,7 @@ const projects = [
     },
     {
         name: "Personal Website",
-        description: "My Personal Portfolio built to showcase my work in a more fun way than a resume :)",
+        description: "My Personal Portfolio built to showcase my work in a more interesting way than a resume :)",
         technologies: ["React", "SCSS"],
         github: "https://github.com/Mateuse/Portfolio/tree/code"
     }
