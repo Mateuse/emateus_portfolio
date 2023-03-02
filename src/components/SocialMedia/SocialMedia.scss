@@ -1,0 +1,84 @@
+.app__social {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    flex-direction: column;
+    z-index: 2;
+  
+    padding: 2rem;
+  
+    div {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: var(--secondary-color);
+      margin: 0.25rem 0;
+      border: 1px solid var(--lightGray-color);
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      transition: all 0.3s ease-in-out;
+  
+      svg {
+        width: 15px;
+        height: 15px;
+        color: var(--white-color);
+      }
+  
+      &:hover {
+        scale: 1.2;
+      }
+  
+      @media screen and (min-width: 2000px) {
+        width: 50px;
+        height: 50px;
+  
+        margin: 0.5rem 0;
+  
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1200px) {
+        display: none;
+    }
+  }
+
+  .app_social-footer {
+    display: flex;
+    flex-direction: row;
+
+    div {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: var(--secondary-color);
+        margin: 1rem 1rem;
+        border: 1px solid var(--lightGray-color);
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        transition: all 0.3s ease-in-out;
+    
+        svg {
+          width: 15px;
+          height: 15px;
+          color: var(--white-color);
+        }
+    
+        &:hover {
+          scale: 1.2;
+        }
+      }
+
+    @media screen and (min-width: 1201px) {
+        display: none;
+    }
+  }
