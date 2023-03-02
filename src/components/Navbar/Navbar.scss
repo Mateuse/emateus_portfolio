@@ -102,8 +102,7 @@
         justify-content: flex-end;
         align-items: flex-end;
         flex-direction: column;
-        background: url('../../assets/bgWhite.png');
-        background-color: var(--white-color);
+        background-color: var(--opposite-primary-color);
         background-size: cover;
         background-repeat: repeat;
         
@@ -131,7 +130,7 @@
                 margin: 1rem;
                 
                 a {
-                    color: var(--gray-color);
+                    color: var(--white-color);
                     text-decoration: none;
                     font-size: 1rem;
                     text-transform: uppercase;
@@ -154,11 +153,4 @@
     @media screen and (min-width: 900px) {
         display: none
     }
-}
-
-.app__navbar-resume {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }

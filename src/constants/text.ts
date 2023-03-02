@@ -99,7 +99,7 @@ const projects = [
         name: "Personal Website",
         description: "My Personal Portfolio built to showcase my work in a more fun way than a resume :)",
         technologies: ["React", "SCSS"],
-        github: "https://github.com/Mateuse/Portfolio"
+        github: "https://github.com/Mateuse/Portfolio/tree/code"
     }
 ]
 

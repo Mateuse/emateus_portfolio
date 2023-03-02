@@ -6,7 +6,7 @@ import './Navbar.scss';
 import images from '../../constants/images';
 import text from '../../constants/text';
 
-const links = ["home", "about", "work", "projects", "skills", "contact"];
+const links = ["home", "about", "work", "projects", "skills", "contact",];
 
 const Navbar = () => {
    const [toggle, setToggle] = useState(false);
@@ -23,6 +23,10 @@ const Navbar = () => {
                     <a href={`#${item}`}>{item}</a>    
                 </li>
             ))}
+            <li className="app__flex p-text">
+                <div />
+                <a href="resume/resume.pdf" download={`${text.name.replace(/\s+/g, "_")}_resume`}>Resume</a>
+            </li>  
         </ul>
         <div className="app__navbar-menu">
                 <HiMenuAlt4 onClick={() => setToggle(true)} />
@@ -40,13 +44,13 @@ const Navbar = () => {
                                     <a href={`#${item}`} onClick={() => setToggle(false)}>{item}</a>    
                                 </li>
                             ))} 
+                            <li className="app_flex p-text">
+                                <a href="resume/resume.pdf" download={`${text.name.replace(/\s+/g, "_")}_resume`}>Resume</a>
+                            </li>     
                         </ul>
                     </motion.div>
                 )}
-        </div>
-        <div className="app__navbar-resume">
-            <a className="link-btn" href="resume/resume.pdf" download={`${text.name.replace(/\s+/g, "_")}_resume`}>Resume</a>
-        </div>
+        </div>   
     </nav>
   )
 }

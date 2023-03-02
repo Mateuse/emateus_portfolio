@@ -6,7 +6,7 @@ import text from '../../constants/text';
 const Footer = () => {
     const looking = true;
     return (
-        <div id="footer">
+        <div id="contact">
             <h2 className="head-text">Get In Touch</h2>
             <div className="app__footer-content">
                 <p>{looking ? text.newOpportunities : text.notLooking}</p>
