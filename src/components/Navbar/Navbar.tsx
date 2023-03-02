@@ -45,7 +45,7 @@ const Navbar = () => {
                 )}
         </div>
         <div className="app__navbar-resume">
-            <a href="resume/resume.pdf" download={`${text.name.replace(/\s+/g, "_")}_resume`}>Resume</a>
+            <a className="link-btn" href="resume/resume.pdf" download={`${text.name.replace(/\s+/g, "_")}_resume`}>Resume</a>
         </div>
     </nav>
   )

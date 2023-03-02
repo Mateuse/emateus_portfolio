@@ -10,6 +10,9 @@ const Footer = () => {
             <h2 className="head-text">Get In Touch</h2>
             <div className="app__footer-content">
                 <p>{looking ? text.newOpportunities : text.notLooking}</p>
+                <a className="link-btn" style={{margin: 20 }} href="mailto:emateus71@gmail.com" target="_blank" rel="noreferrer">
+                    Contact Me
+                </a>
                 <div className="app__footer-socials">
                     <SocialMedia type="footer"/>
                 </div>
