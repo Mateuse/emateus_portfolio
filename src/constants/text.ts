@@ -116,7 +116,8 @@ const skills = [
     {name: "MongoDB", img: images.mongodb},
     {name: "SQL", img: images.sql},
     {name: "Celery", img: images.celery},
-    {name: "RabbitMQ", img: images.rabbitmq}
+    {name: "RabbitMQ", img: images.rabbitmq},
+    {name: "Git", img: images.git}
 ]
 
 const newOpportunities = "I am currently open to new opportunities and am excited to bring my skills and experience to a new role. If you have an opportunity that you think would be a good fit, please don't hesitate to contact me. I would love to hear from you and discuss how I can contribute to your team.";
